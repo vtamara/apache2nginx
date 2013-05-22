@@ -1,0 +1,11 @@
+#!/usr/local/bin/ruby 
+# Dominio público de acuerdo a legislación colombinaa
+# vtamara@pasosdeJesus.org. 2013
+
+require 'apache2nginx.rb'
+
+include Apache2nginx
+
+ret = Apache2nginx::transforma(ARGV[0])
+
+puts ret
