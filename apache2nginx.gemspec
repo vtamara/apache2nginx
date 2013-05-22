@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Vladimir Támara Patiño"]
   s.email       = ["vtamara@pasosdeJesus.org"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Convierte archivo de configuración de apache a nginx}
+  s.description = %q{Reconoce algunas directivas}
 
   s.rubyforge_project = "apache2nginx"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "treetop"
 end
